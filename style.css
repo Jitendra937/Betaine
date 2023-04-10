@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header-wrapper{
+    background-color:#4F697C;
+    height: 62px;
+    padding: 16px 0;
+
+}
+.header-content{
+    font-size: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.hero-banner{
+   
+    height: 503px;
+    background-image: url(/image/banner-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.primary-btn{
+    width: 249px;
+    height: 63px;
+    background-color: #EDEDED;
+    color: #238E88;
+    font-size: 18px;
+}
+h1{
+    color: #65B5AF;
+    font-size: 40px;
+}
+.main{
+    display: flex;
+    padding-top: 20px;
+}
+.information-table{
+    background-color: #F3F3F3;
+}
+
+.site-content{
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+ul{
+    padding-left: 18px;
+}
+.sub-heading{
+    color: #65B5AF;
+}
+.site-footer{
+    background-color: #8D8D88;
+    height: 228px;
+}
+
+h6{
+    color: #54615D;
+    
+}
+
+.logo{
+    height: 65px;
+    width: 239px;
+    padding-top: 25px;
+}
+.copywright{
+    padding-top: 40px;
+}
