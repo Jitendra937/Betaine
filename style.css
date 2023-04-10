@@ -7,8 +7,10 @@
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0;
+
 }
+
+/*header css*/
 
 .header-wrapper{
     background-color:#4F697C;
@@ -17,13 +19,14 @@
 
 }
 .header-content{
-    font-size: 32px;
-    height: 32px;
+    font-size: 28px;
+    height: 22px;
     display: flex;
     align-items: center;
-    justify-content: center;
     color: white;
 }
+
+/*banner css*/
 
 .hero-banner{
    
@@ -32,26 +35,53 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.text{
+    display: flex;
+    padding-top: 180px;
+    padding-left: 10px;
+    color: #FFFFFF;
+    font-size: 48px;
+
+}
 
 .row{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
 }
+.col1{
+    padding-top: 50px;
+}
+.col2{
+    padding-top: 20px;
+}
+.card-para{
+margin-top: 15px;
+}
+
 .primary-btn{
     width: 249px;
     height: 63px;
     background-color: #EDEDED;
     color: #238E88;
     font-size: 18px;
+    margin-top: 25px;
 }
-h1{
+h1,.h1{
     color: #65B5AF;
     font-size: 40px;
 }
 .main{
     display: flex;
     padding-top: 20px;
+    justify-content: space-between;
+}
+.table{
+    margin-top: 150px;
+    
+}
+.image{
+    margin-right: 75px;
 }
 .information-table{
     background-color: #F3F3F3;
@@ -62,14 +92,21 @@ h1{
     padding-bottom: 25px;
 
 }
+h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 ul{
     padding-left: 18px;
+    padding-bottom: 10px;
 }
 .sub-heading{
     color: #65B5AF;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .site-footer{
-    background-color: #8D8D88;
+    background-color: #EDEDED;
     height: 228px;
 }
 
@@ -84,5 +121,5 @@ h6{
     padding-top: 25px;
 }
 .copywright{
-    padding-top: 40px;
+    padding-top: 60px;
 }
